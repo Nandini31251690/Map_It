@@ -1,0 +1,53 @@
+.containerR {
+    position: relative;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .top-barR {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .register-buttonR {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-buttonR:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+  }
+  .container {
+    position: relative;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .top-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .register-button {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+  }
+  

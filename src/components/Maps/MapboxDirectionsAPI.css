@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+  
+  #map {
+  position: absolute;
+  margin: 250vh 0vh 0vw 86vh;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  border-radius: 2%;
+  width: 50%;
+  border: 3px solid #9511CD; 
+  }
+  
+  
+  #instructions {
+  position: absolute;
+  margin: 250vh 500vh 1500vw 12vh;
+  height: 50.0%;
+  width: 20%;
+  top: 0;
+  border-radius: 2%;
+  bottom: 20%;
+  background-color: #fff;
+  overflow-y: scroll;
+  font-family: sans-serif;
+  border: 3px solid #9511CD; 
+  }
+  
+  
+  .map-container {
+    
+  }
+  
+  .map-heading {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid #9511CD;
+    border-radius: 5px;
+  }
+  
+  .find-path-button {
+    padding: 10px 20px;
+    background-color: #9511CD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .find-path-button:hover {
+    background-color: #9511CD;
+  }

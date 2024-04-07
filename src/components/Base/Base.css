@@ -1,0 +1,61 @@
+.BASEcontainer {
+    background-color: #000000; /* Black background */
+    padding: 20px;
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: 0px;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Grow icon size on hover */
+  }
+  
+   /* .twitter { background-image: url('../million.png'); } */
+  /* .instagram { background-image: url('instagram.png'); }
+  .linkedin { background-image: url('linkedin.png'); }
+  .youtube { background-image: url('youtube.png'); }  */
+  
+  .rectangle {
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .text:hover {
+    color: #9511CD; /* Change text color on hover */
+  }
+  
+  .description {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

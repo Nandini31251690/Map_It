@@ -1,0 +1,55 @@
+/* Styling for the accordion */
+.accordion {
+    background-color: black;
+    padding: 0px 200px; 
+    padding-bottom: 100px;
+    margin-top: 200px;
+    margin-top: 20px;
+}
+  
+  /* Styling for accordion headers */
+  .accordion-header button {
+    color: white;
+    background-color: black;
+    border: 0.5px solid rgba(128, 128, 128, 0.167);
+    
+    padding: 15px 200px; 
+  }
+  
+  /* Styling for accordion body */
+  .accordion-body {
+    color: white;
+    background-color: black; /* Set background color to black */
+    padding: 0px 200px; /* Add padding of 200px on both right and left */
+    border: 0.5px solid rgba(128, 128, 128, 0.167);
+  }
+  
+  .accordion-item:not(.collapsed) .accordion-header button {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Styling for accordion body on hover */
+  .accordion-header button:hover {
+    text-decoration: underline;
+  }
+  .arrow-icon {
+    font-size: 20px; /* Adjust size as needed */
+    position: absolute;
+    right: 5px; /* Adjust the distance from the right as needed */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  
+  /* Adjust color and other styles as needed */
+  
+  /* Adjust color and other styles as needed */
+  .hediii{
+    color: white;
+    margin-left:36%;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }

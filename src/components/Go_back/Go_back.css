@@ -1,0 +1,25 @@
+.go-back {
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+    align-items: center; /* Vertically center items */
+    margin-top: 35px; /* Adjust the distance from the top */
+    margin-right: 22px;
+    background-color: rgba(128, 128, 128, 0.26);
+    height: 55px;
+  }
+  
+  .go-back-button {
+    background-color: #9511CD; /* Purple background */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-back-button:hover {
+    background-color: #333333; /* Darker background color on hover */
+  }
+  

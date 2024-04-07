@@ -1,0 +1,27 @@
+/* Belt.css */
+
+.slider {
+    overflow: hidden;
+    width: 100%; /* Adjust as needed */
+  }
+  
+  .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    height: 100px;
+    width: 250px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100%)); /* Adjust slide width and count */
+    }
+  }
+  

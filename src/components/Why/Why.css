@@ -1,0 +1,41 @@
+bodyW {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.containerW {
+  text-align: center;
+  background-color: black;
+}
+
+.headingW {
+  color: white;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.subheadingW {
+  color: white;
+  margin-bottom: 30px; /* Adjust as needed */
+  justify-content: center;
+  padding: 20px 315px;
+}
+
+.image-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 200px;
+    padding-left: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 150px; /* Adjust as needed */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.enlarged {
+  transform: scale(1.8); /* Enlarge by 10% */
+}

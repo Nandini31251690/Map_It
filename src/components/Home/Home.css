@@ -1,0 +1,50 @@
+
+
+.thin-strip {
+    position: absolute;
+    top: 30px; /* Adjust the distance from the top */
+    left: 0;
+    height: 50px; /* Adjust the height as needed */
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.329); /* Black color with transparency */
+    padding-left: 0px; /* Adjust padding as needed */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .paren {
+    background-color: black;
+    padding-left: 0px; /* Adjust padding as needed */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .thin-strip button {
+    top: 2.5px; /* Adjust the distance from the top */
+    right: 20px; /* Adjust the distance from the right */
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0; /* Add this line to remove default margins */
+  }
+  #but {
+    background-color: #9511cd; /* Purple background */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #but:hover {
+    background-color: #7a0f9c; /* Darker purple on hover */
+  }
+
+  #but a {
+    color: #ffffff; /* White text color for the link */
+    text-decoration: none;
+  }

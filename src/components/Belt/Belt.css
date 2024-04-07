@@ -1,0 +1,30 @@
+/* BeltLeft.css */
+.slider{
+  background-color: black;
+  padding-bottom: 100px;
+}
+.slider-left {
+    overflow: hidden;
+    width: 100%; /* Adjust as needed */
+  }
+  
+  .slide-track-left {
+    display: flex;
+    animation: scrollLeft 40s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  .slide-left {
+    flex: 0 0 auto;
+    height: 100px;
+    width: 250px;
+  }
+  
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100%)); /* Adjust the direction */
+    }
+  }
+  

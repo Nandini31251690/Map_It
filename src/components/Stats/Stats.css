@@ -1,0 +1,51 @@
+.containerS {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 175px; /* 20px top/bottom, 175px left/right */
+}
+
+.headingS {
+  text-transform: uppercase;
+}
+
+.box-containerS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.box {
+  flex-grow: 1; /* Allow boxes to adjust width automatically */
+  height: 120px;
+  background-color: black;
+  border: 1px solid rgba(128, 128, 128, 0.568); /* thin white border */
+  border-radius: 14px;
+  margin-right: 10px;
+  
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.1) rotate(-1deg);
+}
+
+/* .box:hover span {
+  transform: scale(1.0) rotate(-5deg);
+} */
+
+.white_text {
+  color: white; /* white text color */
+  font-weight: bold; /* bold font */
+  font-size: 3.3em; /* larger font size */
+}
+
+.purple {
+  font-weight:200;
+  color: violet; /* purple text color */
+  display: block;
+}

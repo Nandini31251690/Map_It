@@ -1,0 +1,69 @@
+.bag {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .logo-image {
+    max-width: 100%; /* Adjust the size of the image */
+    max-height: 100%; /* Adjust the size of the image */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 20px 2000px;
+  }
+  .bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bag img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .bag img {
+    width: 1100px; /* Increase the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .container {
+    position: relative;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .first-div {
+    /* Styles for the content of the first div */
+  }
+  .container {
+    position: relative;
+  }
+  
+  .first-div {
+    /* Styles for the content of the first div */
+    margin-top: 20px; /* Adjust the distance from the top */
+  }
+  
+  .thin-strip {
+    position: absolute;
+    top: 30px; /* Adjust the distance from the top */
+    left: 0;
+    height: 50px; /* Adjust the height as needed */
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.329); /* Black color with transparency */
+    padding-left: 0px; /* Adjust padding as needed */
+  }
+  
+  .button {
+    position: absolute;
+    top: 33px; /* Adjust the distance from the top */
+    right: 20px; /* Adjust the distance from the right */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
