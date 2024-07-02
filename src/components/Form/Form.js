@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './RegistrationWindow.css'; // Import the CSS file for styling
+import './RegistrationWindow.css'; 
 
 const RegistrationWindow = () => {
   const [showRegistration, setShowRegistration] = useState(false);
