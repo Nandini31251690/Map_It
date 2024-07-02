@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Faqs.css'; // Import the CSS file for styling
+import './Faqs.css'; 
 
 function Faqs() {
   const [openAccordion, setOpenAccordion] = useState('');
