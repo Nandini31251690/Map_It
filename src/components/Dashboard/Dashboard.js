@@ -1,5 +1,5 @@
 import React from 'react';
-import './Dashboard.css'; // Import your CSS file
+import './Dashboard.css'; 
 import Maps from '../Maps/Maps';
 import Base from '../Base/Base';
 import Go_Back from '../Go_back/Go_back';
@@ -47,7 +47,7 @@ const eventsData = [
     description2: "1:30PM onwards",
    heading: "Million Dollar Pitch",
   },
-  // Add more events here...
+
 ];
 
 const Dashboard = () => {
