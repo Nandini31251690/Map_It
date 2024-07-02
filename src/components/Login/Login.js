@@ -1,5 +1,5 @@
-import React, { useState } from 'react'; // Import useState hook
-import './Login.css'; // Import your CSS file
+import React, { useState } from 'react'; 
+import './Login.css'; 
 import InputControl from '../InputControl/InputControl';
 import { Link, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
