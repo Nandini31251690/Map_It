@@ -1,5 +1,5 @@
 import React from 'react';
-import './Belt.css'; // Import your CSS file
+import './Belt.css'; 
 
 const images = [
   'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png',
